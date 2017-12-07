@@ -38,6 +38,11 @@ GEM
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
     arel (6.0.4)
+    autoprefixer-rails (7.2.1)
+      execjs
+    bootstrap-sass (3.3.7)
+      autoprefixer-rails (>= 5.2.1)
+      sass (>= 3.3.4)
     builder (3.2.3)
     capybara (2.16.1)
       addressable
@@ -157,6 +162,7 @@ GEM
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
     rb-notifu (0.0.4)
+    rb-readline (0.5.5)
     rdoc (4.3.0)
     rspec (3.7.0)
       rspec-core (~> 3.7.0)
@@ -233,6 +239,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  bootstrap-sass
   capybara
   childprocess
   coffee-rails
@@ -244,6 +251,7 @@ DEPENDENCIES
   rails
   rails_12factor
   rb-notifu
+  rb-readline
   rspec-rails
   sass-rails
   sdoc
